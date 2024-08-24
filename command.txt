@@ -1,0 +1,1 @@
+npx playwright codegen keisan.casio.jp/exec/system/1233283157
