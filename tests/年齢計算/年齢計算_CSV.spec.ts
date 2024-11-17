@@ -23,7 +23,7 @@ test('test', async ({ page }) => {
         if (month[0] == '0') {
             month = month.replace('0', '');
         }
-        var day = String(birthdayArr[2]).replace('"', '');
+        var day = String(birthdayArr[2]).replace('"', '').replace('\r', '');
         if (day[0] == '0') {
             day = day.replace('0', '');
         }
